@@ -1,0 +1,99 @@
+:root {
+    --bg-color: #406449;
+    --text-color: #f2f2f2;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+    
+}
+
+.main{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 450px;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.search h2{
+    font-size: 2rem;
+}
+
+form {
+    margin-top: 35px;
+    padding: 0px 40px;
+}
+
+form input{
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.7rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 30px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button{
+    border-radius: 10px;
+    margin: 50px 0px 15px;
+    width: 100px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+button:hover, button:active{
+    filter: brightness(90%);
+}
+
+.result{
+    color: #f2f2f2;
+}
+
+.result #temp-div{
+    font-size: 3.5rem;
+}
+
+.city-weather-info{
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+#weather-icon{
+    display: none;
+    margin: 0px auto;
+}
+
+#city-info{
+    margin-bottom: 10px;
+}
+
+#forecast-info{
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecastItem{
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
