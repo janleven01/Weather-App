@@ -75,10 +75,6 @@ function displayForecastInfo(data){
     
 }
 
-
-
-
-
 search.addEventListener('click', async event => {
     event.preventDefault()
 

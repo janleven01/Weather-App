@@ -24,7 +24,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 450px;
-    margin: 5rem auto;
+    margin: 4rem auto;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ form input{
 
 button{
     border-radius: 10px;
-    margin: 50px 0px 15px;
+    margin: 50px 0px 0px;
     width: 100px;
     padding: 0.5rem;
     font-size: 1rem;
@@ -68,7 +68,7 @@ button:hover, button:active{
 
 .city-weather-info{
     font-size: 1.4rem;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #weather-icon{
@@ -81,7 +81,7 @@ button:hover, button:active{
 }
 
 #forecast-info{
-    margin-top: 50px;
+    margin-top: 40px;
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
@@ -96,5 +96,5 @@ button:hover, button:active{
     align-items: center;
     margin-right: 10px;
     color: var(--text-color);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
